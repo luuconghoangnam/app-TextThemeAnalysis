@@ -4,10 +4,14 @@ import joblib
 from nltk.stem import WordNetLemmatizer
 from nltk.corpus import stopwords
 import nltk
+import re
+
+# Import custom classes first (needed for loading pickled vectorizers)
+from class_lib import Bow_lib, Tfidf_lib
+
+# Download NLTK data
 nltk.download('wordnet')
 nltk.download('stopwords')
-from class_lib import Bow_lib, Tfidf_lib
-import re
 
 # Initialize lemmatizer and stop words
 stop_words = stopwords.words('english')
