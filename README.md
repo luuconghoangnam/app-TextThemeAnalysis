@@ -180,7 +180,7 @@ Mỗi file CSV có cấu trúc: `headlines`, `description`, `content`, `url`, `c
 ## Ví dụ sử dụng
 
 ### Ví dụ phân tích văn bản Business
-![Ví dụ phân tích văn bản Business](ImagesREADME/.png)
+![Ví dụ phân tích văn bản Business](ImagesREADME/Business.png)
 
 ### Ví dụ văn bản Business:
 *"Apple Inc. reported strong quarterly earnings with revenue growth of 15% compared to last year. The company's stock price surged following the announcement of new product launches and expansion into emerging markets."*
