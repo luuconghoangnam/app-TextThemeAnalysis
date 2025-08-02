@@ -40,7 +40,7 @@ streamlit run app_demo.py
 
 ## Cấu trúc dự án
 
-![Cấu trúc dự án](ImagesREADME/project-structure.png)
+![Cấu trúc dự án]
 
 ```
 phan_tich_chu_de_doan_van/
@@ -180,7 +180,7 @@ Mỗi file CSV có cấu trúc: `headlines`, `description`, `content`, `url`, `c
 ## Ví dụ sử dụng
 
 ### Ví dụ phân tích văn bản Business
-![Ví dụ phân tích văn bản Business](ImagesREADME/Ảnh%20chụp%20màn%20hình%202025-08-02%20192940.png)
+![Ví dụ phân tích văn bản Business](ImagesREADME/.png)
 
 ### Ví dụ văn bản Business:
 *"Apple Inc. reported strong quarterly earnings with revenue growth of 15% compared to last year. The company's stock price surged following the announcement of new product launches and expansion into emerging markets."*
@@ -188,7 +188,7 @@ Mỗi file CSV có cấu trúc: `headlines`, `description`, `content`, `url`, `c
 **Kết quả dự kiến:** Business (95%), Technology (4%), Entertainment (1%)
 
 ### Ví dụ phân tích văn bản Technology
-![Ví dụ phân tích văn bản Technology](ImagesREADME/Ảnh%20chụp%20màn%20hình%202025-08-02%20192959.png)
+![Ví dụ phân tích văn bản Technology](ImagesREADME/Technology.png)
 
 ### Ví dụ văn bản Technology:
 *"Artificial intelligence and machine learning algorithms are revolutionizing the way we process data. New neural network architectures show promising results in natural language processing tasks."*
