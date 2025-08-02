@@ -106,7 +106,7 @@ nltk.download('stopwords')
 ## Cách sử dụng
 
 ### Giao diện ứng dụng
-![Hướng dẫn sử dụng](ImagesREADME/usage-guide.png)
+![Hướng dẫn sử dụng](ImagesREADME/giaoDienUngDung.png)
 
 ### Chạy ứng dụng Streamlit
 
