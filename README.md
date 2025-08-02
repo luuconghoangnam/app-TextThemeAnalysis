@@ -6,6 +6,9 @@
 [![Status](https://img.shields.io/badge/Status-Working-green.svg)](#)
 
 ## 🚀 Khởi chạy nhanh
+
+![Giao diện chính của ứng dụng](ImagesREADME/main-interface.png)
+
 ```bash
 # Clone repository
 git clone https://github.com/luuconghoangnam/phan_tich_chu_de_doan_van.git
@@ -24,12 +27,21 @@ streamlit run app_demo.py
 - **NMF (Non-negative Matrix Factorization)**: Mô hình phân tích ma trận để trích xuất chủ đề
 
 ## Chức năng chính
+
+![Demo phân tích văn bản](ImagesREADME/main-interface.png)
+
 - Phân loại văn bản vào 5 chủ đề: Business, Education, Entertainment, Sports, Technology
 - Hiển thị phân phối xác suất cho từng chủ đề
 - Giao diện web thân thiện với Streamlit
 - Hỗ trợ cả hai mô hình LDA và NMF để so sánh kết quả
 
+### Biểu đồ phân phối chủ đề
+![Biểu đồ phân phối xác suất](ImagesREADME/probability-chart.png)
+
 ## Cấu trúc dự án
+
+![Cấu trúc dự án](ImagesREADME/project-structure.png)
+
 ```
 phan_tich_chu_de_doan_van/
 ├── app_topic.py              # Ứng dụng Streamlit gốc (có lỗi vectorizer)
@@ -93,6 +105,9 @@ nltk.download('stopwords')
 
 ## Cách sử dụng
 
+### Giao diện ứng dụng
+![Hướng dẫn sử dụng](ImagesREADME/usage-guide.png)
+
 ### Chạy ứng dụng Streamlit
 
 **Phiên bản demo (khuyến nghị):**
@@ -113,6 +128,8 @@ streamlit run app_topic.py
 3. Nhấn nút "Phân tích"
 4. Xem kết quả phân loại và biểu đồ phân phối xác suất
 
+![Quy trình sử dụng](ImagesREADME/workflow.png)
+
 ## Các chủ đề được hỗ trợ
 - **Business**: Kinh doanh, tài chính, thương mại
 - **Education**: Giáo dục, học tập, đào tạo
@@ -121,6 +138,9 @@ streamlit run app_topic.py
 - **Technology**: Công nghệ, khoa học, kỹ thuật
 
 ## Mô hình và thuật toán
+
+### Kiến trúc tổng quan
+![Kiến trúc hệ thống](ImagesREADME/system-architecture.png)
 
 ### LDA (Latent Dirichlet Allocation)
 - Mô hình generative xác suất
@@ -131,6 +151,9 @@ streamlit run app_topic.py
 - Phân tách ma trận không âm
 - Tạo ra các thành phần dễ diễn giải
 - Hiệu quả với dữ liệu văn bản sparse
+
+### So sánh hiệu suất mô hình
+![So sánh LDA vs NMF](ImagesREADME/model-comparison.png)
 
 ## Preprocessing Pipeline
 1. Loại bỏ ký tự đặc biệt và chuyển về chữ thường
@@ -156,10 +179,16 @@ Mỗi file CSV có cấu trúc: `headlines`, `description`, `content`, `url`, `c
 
 ## Ví dụ sử dụng
 
+### Ví dụ phân tích văn bản Business
+![Ví dụ phân tích văn bản Business](ImagesREADME/Ảnh%20chụp%20màn%20hình%202025-08-02%20192940.png)
+
 ### Ví dụ văn bản Business:
 *"Apple Inc. reported strong quarterly earnings with revenue growth of 15% compared to last year. The company's stock price surged following the announcement of new product launches and expansion into emerging markets."*
 
 **Kết quả dự kiến:** Business (95%), Technology (4%), Entertainment (1%)
+
+### Ví dụ phân tích văn bản Technology
+![Ví dụ phân tích văn bản Technology](ImagesREADME/Ảnh%20chụp%20màn%20hình%202025-08-02%20192959.png)
 
 ### Ví dụ văn bản Technology:
 *"Artificial intelligence and machine learning algorithms are revolutionizing the way we process data. New neural network architectures show promising results in natural language processing tasks."*
@@ -214,6 +243,9 @@ Sử dụng notebook `NLTK_cuoiki.py` để train lại model với dữ liệu 
 MIT License
 
 ## Contact
+
+![Tổng quan dự án](ImagesREADME/workflow.png)
+
 - Repository: [phan_tich_chu_de_doan_van](https://github.com/luuconghoangnam/phan_tich_chu_de_doan_van)
 - Owner: luuconghoangnam
 - Issues: [Report bugs or request features](https://github.com/luuconghoangnam/phan_tich_chu_de_doan_van/issues)
